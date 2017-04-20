@@ -17,11 +17,11 @@
 [submodule "spoofax"]
   path = spoofax
   url = https://github.com/metaborg/spoofax.git
-  branch = master
+  branch = .
 [submodule "releng"]
   path = releng
   url = https://github.com/metaborg/spoofax-deploy.git
-  branch = master
+  branch = .
 [submodule "sdf"]
   path = sdf
   url = https://github.com/metaborg/sdf.git
@@ -65,7 +65,7 @@
 [submodule "spoofax-eclipse"]
   path = spoofax-eclipse
   url = https://github.com/metaborg/spoofax-eclipse.git
-  branch = master
+  branch = .
 [submodule "spoofax-intellij"]
 	path = spoofax-intellij
 	url = https://github.com/metaborg/spoofax-intellij.git
@@ -77,4 +77,4 @@
 [submodule "flowspec"]
 	path = flowspec
         url = https://github.com/metaborg/flowspec.git
-        branch = master
+        branch = .
