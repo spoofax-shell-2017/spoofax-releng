@@ -123,6 +123,7 @@ public class LanguageCommandTest {
         when(builder.evalAnalyzed()).thenReturn(builder);
         when(builder.evalPOpen()).thenReturn(builder);
         when(builder.evalAOpen()).thenReturn(builder);
+        when(builder.style()).thenReturn(builder);
 
         langCommand = new LanguageCommand(langDiscoveryService, resourceService, menuService,
                                           invoker, functionFactory, project);
